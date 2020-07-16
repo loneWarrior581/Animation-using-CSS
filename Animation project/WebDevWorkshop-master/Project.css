@@ -1,0 +1,41 @@
+
+body{
+    background: url('/images/galaxy.png') rgb(22,26,70) repeat-x;
+    background-size: 1000px 709px;
+}
+
+.r1{
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    transform: rotateZ(45deg);  /* rotates the rocket to the 45deg in the clockwise direction */
+}
+
+.cody{
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: -15%;
+}
+
+
+.conv1,
+.conv3{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 310px;
+    left: 295px;
+    opacity: 0;
+}
+
+.conv2,
+.conv4{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 430px;
+    left: 650px;    
+    opacity: 0;
+}
